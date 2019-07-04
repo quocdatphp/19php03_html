@@ -1,0 +1,22 @@
+h1{
+	color: blue;
+}
+/*bấm ctrl ?*/
+p{
+	font-style: italic;
+	font-weight: bold;
+	color: yellow;
+}
+.demo{
+	/*class thì sẽ dùng .*/
+	color: blue;
+	font-weight: initial;
+}
+#wel{
+	/*id thì sẽ dùng #*/
+	color: blue;
+}
+img{
+	width: 100%;
+	height: 500px;
+}
