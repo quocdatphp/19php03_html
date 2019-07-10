@@ -1,0 +1,82 @@
+#header{
+	border: 5px solid black;
+	width: 99%;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	margin-left:10px;
+	margin-right: 10px;
+	background-color: red;
+	font-size: 30px;
+
+}
+
+#wrapper{
+	margin: 10px 10px 10px 10px;
+	border:5px solid black;
+	height: 600px;
+}
+.leftpane{
+	margin: 10px 0px 10px 10px;
+	border:1px solid black;
+	height: 570px;
+	width: 280px;
+	float: left;
+	background-color: blue;
+	line-height: 570px;
+	text-align: center;
+}
+#topcontent{
+	margin: 10px 0px 2px 15px;
+	border:1px solid black;
+	height: 80px;
+	width: 940px;
+	float: left;
+	background-color: purple;
+	line-height: 80px;
+	text-align: center;
+}
+#midcontent{
+	margin: 2px 0px 2px 15px;
+	border:1px solid black;
+	height: 400px;
+	width: 940px;
+	float: left;
+	background-color: purple;
+	line-height: 400px;
+	text-align: center;
+}
+#bottomcontent{
+	margin: 5px 0px 10px 15px;
+	border:1px solid black;
+	height: 80px;
+	width: 940px;
+	float: left;
+	background-color: purple;
+	line-height: 80px;
+	text-align: center;
+}
+.rightpane{
+	margin: 10px 10px 10px 0px; 
+	border:1px solid black;
+	height: 570px;
+	width: 270px;
+	float: right;
+	background-color: green;
+	line-height: 570px;
+	text-align: center;
+}
+#footer{
+	border: 5px solid black;
+	margin-top: 10px;
+	height:70px;
+	margin-left:10px;
+	margin-right: 10px;
+	background-color: pink;
+	line-height: 70px;
+	text-align: center;
+
+}
+
+
+
