@@ -1,0 +1,36 @@
+#umbrella1{
+	border: 2px dotted black;
+	width: 700px;
+	height: 200px;
+
+}
+#umbrealla2{
+	border: 2px solid black;
+	width: 600px;
+	height: 180px;
+	padding-left: 0px; 
+	margin-left: 60px;
+	margin-top: 10px;
+
+}
+#umbrella3{
+	border: 2px dotted black;
+	width: 500px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 50px;
+
+}
+#umbrella4{
+	border: 2px dotted black;
+	width: 500px;
+	height: 50px;
+	margin-top: 20px; 
+	margin-left: 50px;
+	text-align: center;
+	line-height: 50px;
+
+}
+

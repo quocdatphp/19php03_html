@@ -1,0 +1,24 @@
+nav{
+	border: 2px solid black;
+	width: 400px;
+	box-shadow: ;
+}
+nav ul{
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+	
+	
+}
+nav ul li{
+	border:2px solid blue;
+	margin-bottom: 1.5em;
+	width: 200px;
+	height: 70px;
+	color: blue;
+	line-height: 70px;
+	text-align: center;
+}
+nav ul li a.color{
+	background-color: silver;
+}
