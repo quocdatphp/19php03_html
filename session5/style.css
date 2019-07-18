@@ -1,0 +1,28 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/*Định nghĩa font chữ*/
+@font-face{
+  font-family: "MYRIADPRO-BOLD";
+  src: url(MYRIADPRO-BOLD.OTF);
+}
+/* !important nghĩa là ko thằng nào có thể đè lên được nữa vd: demo1 màu blue thì ko đè lên được*/
+.demo1{
+	color: red !important;
+	font-size: 20px;
+	font-family: MYRIADPRO-BOLD;
+	/*đổ bóng chữ*/
+	text-shadow: 4px 4px 3px red;
+}
+.content{
+	/*thụt vào đầu dòng*/
+	text-indent: 20px;
+	/*In hoa cả đoạn*/
+	text-transform: uppercase;
+	/*In thường cả đoạn văn*/
+	text-transform: lowercase;
+	/*gạch ngang chữ*/
+	text-decoration: line-through;
+}
+
