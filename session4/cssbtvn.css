@@ -1,4 +1,5 @@
-* {
+/*cái này dùng cho tất cả thẻ dùng chung cho tất cả *{} */
+* { 
   box-sizing: border-box;
 }
 

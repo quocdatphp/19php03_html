@@ -1,0 +1,20 @@
+table {
+	border: 1px solid black;
+	width: 500px;
+	/*chỉ dùng cho table*/
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid black;
+}
+thead, tfoot {
+	background: yellow;
+}
+td {
+	background: green;
+	text-align: center;
+}
+/*cho để chẳn với lẽ*/
+td:ntd-child(even) {
+	background: purple;
+}

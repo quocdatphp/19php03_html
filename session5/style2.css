@@ -1,32 +1,36 @@
-
-.header{
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.header {
 	margin: 10px 10px 10px 10px;
 	height: 200px; 
 	text-align: center;
 	width: 100%;
 }
 
-h1{
+h1 {
 	
 	text-align: center;
 }
-h2{
+h2 {
 	color: blue;
 }
-p{
+p {
 	text-indent: 30px;
+	text-align: justify;
 }
-img{
+img {
 	width:20%;
 	float: left;
 	border-right: 1px solid black;
 }
-.right{
+.right {
 	text-indent:30px;
 }
-#footer{
+#footer {
 	float: right;
-	margin-right: 100px;
+	
 }
 
 

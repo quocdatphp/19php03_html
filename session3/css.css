@@ -4,6 +4,12 @@
 	text-align: center;
 	line-height: 100px;
 	width: 100%;
+
+}
+#logo{
+	width:30%;
+	float: left;
+	border-right: 1px solid black;
 }
 
 #content{
@@ -11,22 +17,13 @@
 	height: 500px; 
 	text-align: center;
 	line-height: 500px;
-
 }
-
 #footer{
 	border: 1px solid black; 
 	height: 100px;
 	text-align: center; 
 	line-height: 100px;
 }
-
-#logo{
-	width:30%;
-	float: left;
-	border-right: 1px solid black;
-}
-
 #slidebar{
 	float: left;
 	border-right:1px solid black;
