@@ -1,0 +1,71 @@
+body {
+	background: linear-gradient(to right, pink, rgba(255,0,0,1));
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.container {
+	background-color: white;
+	height: 800px;
+	padding: 20px;
+	border: 1px solid black;
+}
+.banner {
+	width: 100%;
+	height: 130px;
+}
+h2 {
+	color: #FF0099;
+}
+span {
+	color: green;
+}
+img {
+	padding: 5px;
+	width: 20%;
+	height: 100px;
+	float: left;
+}
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	/*background-color: #333;*/
+}
+nav ul li .menucolor {
+	color: black;
+}
+li {
+	float: left;
+}
+li a {
+	font-size: 20px;
+	display: block;
+	text-decoration: none;
+	color: green;
+	padding: 15px 30px;
+	margin-right: 5px; 
+}
+p {
+	text-align: justify;
+}
+.content-main {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+.content {
+	float: left;
+	width: 70%;
+	border-right: 1px solid black;
+}
+.rightcontent {
+	text-align: justify;
+	width: 29%;
+	float: right;
+}
+.footer {
+	float: right;
+}

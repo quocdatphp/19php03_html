@@ -1,0 +1,18 @@
+#demo{
+	width: 200px;
+	height: 100px;
+	margin-bottom: 10px;
+	border: 2px solid green;
+	border-radius: 40%;
+	background-image: linear-gradient(to bottom right, red, yellow);
+}
+#demo2{
+	background: url(img.png);
+	width: 200px;
+	height: 100px;
+	border: 2px solid green;
+	border-radius: 20px;	
+	box-shadow: 4px 5px 6px pink;
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+}

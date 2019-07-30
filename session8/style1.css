@@ -1,0 +1,40 @@
+body {
+	background-image: url(logo.jpg);
+}
+.container{
+	background-image: linear-gradient(to top left, white, silver);
+	border-radius: 7px 7px 7px 7px;
+	width: 80%;
+	margin: auto;
+	box-shadow: 7px 8px 9px blue;
+}
+.header {
+	margin-left: 60px;
+	border-bottom: 2px solid black;
+	height: 150px; 
+	text-align: center;
+	width: 90%;
+}
+.content {
+	width: 90%;
+	margin-left: 50px;
+	border-bottom: 2px solid black;
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-indent: 30px;
+	text-align: justify;
+}
+img {
+	width:20%;
+	float: left;
+	border-right: 1px solid black;
+}
+.footer {
+	float: right;
+	
+}
+
+
