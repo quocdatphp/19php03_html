@@ -2,25 +2,31 @@ body {
 	background: linear-gradient(to right, pink, rgba(255,0,0,1));
 	padding-left: 20px;
 	padding-right: 20px;
-
 }
 .container {
+	height: 870px;
+	width: 100%;
+	border-radius: 20px;
 	background-color: white;
-	height: 800px;
-	padding: 20px;
 	border: 1px solid black;
 }
 .banner {
+	margin-left: 20px;
 	width: 100%;
 	height: 130px;
 }
+.menu {
+	padding: 15px;
+}
 h2 {
+	margin-left: 20px;
 	color: #FF0099;
 }
 span {
 	color: green;
 }
 img {
+	margin-right: 20px;
 	padding: 5px;
 	width: 20%;
 	height: 100px;
@@ -40,6 +46,7 @@ li {
 	float: left;
 }
 li a {
+	border-right: 1px solid black;
 	font-size: 20px;
 	display: block;
 	text-decoration: none;
@@ -51,8 +58,8 @@ p {
 	text-align: justify;
 }
 .content-main {
+	margin:10px;
 	height: 500px;
-	width: 100%;
 	padding: 10px;
 	border-bottom: 1px solid black;
 }
@@ -69,3 +76,10 @@ p {
 .footer {
 	float: right;
 }
+@media screen and (max-width: 900px) {
+	.container{
+		width: 100%;
+	}
+	
+}
+
