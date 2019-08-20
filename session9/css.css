@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+}
+.formlogin{
+	border: 2px solid black;
+	width: 50%;
+}
+p{
+	font-size: 15px;
+}
+
+.formregister {
+	width: 50%;
+	
+}
+.formlogin, .formregister{
+	border: 1px solid black;
+	height: 300px;
+	float: left;
+}

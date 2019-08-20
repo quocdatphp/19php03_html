@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>introduce javascript</title>
+	<link rel="stylesheet" type="text/css" href="intro_javascript.css">
+	<!-- External js -->
+	<script src="intro_javascript.js"></script>
+	<!-- Internal js -->
+	<!-- <script>
+		alert('test');
+	</script> -->
+</head>
+<body>
+	<!-- Inline js -->
+	<!-- <p onclick="alert('test inline kkk')">Test inline</p> -->
+	<!-- 1) thay đổi nội dung Html -->
+	<p id="demo1">Hello 19PHP03</p>
+	<p id="demo2">Hello SDC</p>
+	<a href="#" onclick="document.getElementById('demo1').innerHTML ='Hi Javascript'">Change HTML</a>
+	<!-- 2) Thay đổi thuộc tính ảnh -->
+	<img src="bgr.jpg" alt="image" id="demo3">
+	<a href="#" onclick="document.getElementById('demo3').src='bg.jpg'">Change attribute</a>
+	<!-- 3) Thay đổi style  Html-->
+	<p id="demo4">My script</p>
+	<a href="#" onclick="document.getElementById('demo4').style.color='red'">Change style</a>
+	<a href="#" onclick="document.getElementById('demo4').style.fontsize='red'">Change fontsize</a>
+	<!-- 4) Ẩn đối tượng Html -->
+	<p id="demo5">My text1</p>
+	<a href="#" onclick="document.getElementById('demo5').style.display='none'">Hide element</a>
+	<a href="#" onclick="document.getElementById('demo5').style.display='block'">Show element</a>
+
+	<img src="bulb off.jpg" alt="img" id="demo6">
+	
+	<a href="#" onclick="document.getElementById('demo6').src='bulb off.jpg'">Tunr off</a>
+	<a href="#" onclick="document.getElementById('demo6').src='bulb on.jpg'">Tunr on</a>
+</html>

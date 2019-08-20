@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form</title>
+</head>
+<body>
+	<h1>Form</h1>
+	<form name="formregister" action="#" method="POST">
+		<!-- action là đường link khi nhấn submit sẽ đến linh đó -->
+		<p>Username:
+			<input type="text" name="username">
+		</p>
+		<p>Password:
+			<input type="password" name="password">
+		</p>
+		<p>Gender
+			<input type="radio" name="gender"> male
+			<input type="radio" name="gender"> female
+		</p>
+		<p>favourite:
+			<input type="checkbox" name="foobal"> football
+			<input type="checkbox" name="film"> film
+			<input type="checkbox" name="shopping"> Shopping
+		</p>
+		<p>About
+			<textarea name="about" id="" cols="40" rows="10"></textarea>
+		</p>
+		<p>City:
+			<select name="city" id="">
+			<option value="1">DaNang</option>
+			<option value="2">HoiAn</option>
+			<option value="3">Kontum</option>
+			<option value="4">Ho Chi Minh</option>
+			</select>
+		</p>
+		<p>Avatar:
+			<input type="file" name="avatar">
+		</p>
+		<input type="submit" name="register">
+	</form>
+	<input type="range" name="size" min="10" max="100" step="5">
+	<input type="number" name="size" min="1" max="10" step="5">
+	<input type="color" name="size" min="1" max="10" step="5">
+
+</body>
+</html>

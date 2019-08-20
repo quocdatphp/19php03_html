@@ -1,0 +1,134 @@
+* {
+	margin: auto;
+	padding: 0px;
+}
+body {
+
+	font-family: "VNI";
+	background-color: #7765FD;
+}
+h1 {
+	color: #FFFFFF;
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	color: #FFFFFF;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	height: 500px;
+}
+.login{
+	margin-left: 100px;
+	width: 35%;
+	background-image: url("bg.jpg");
+	float: left;
+}
+p {
+	color: white;
+	padding: 5px;
+	font-size: 15px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.loginnow {
+	text-align: center;
+	text-decoration: none;
+	margin-top: 50px;
+	background-color: #2828CD;
+	margin: auto;
+	padding: auto;
+	width: 90%;
+	border-radius: 30px;
+}
+.group{
+	margin-top: 30px;
+}
+input[type=text] {
+	background-color: rgba(0, 0, 0, 0);
+	width: 90%;
+  	padding: 12px 20px;
+  	margin-left: 10px;
+  	box-sizing: border-box;
+  	border: none;
+  	border-bottom: 4px solid white;
+}
+input[type=text]::placeholder {
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+input[type=password] {
+	background-color: rgba(0, 0, 0, 0);
+	width: 90%;
+  	padding: 12px 20px;
+  	margin-left: 10px;
+  	box-sizing: border-box;
+  	border: none;
+  	border-bottom: 4px solid white;
+}
+input[type=password]::placeholder {
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+.facebook {
+	background-color: #3B5998;
+	margin-left: 12px;
+	border: 0px solid white;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px; 
+	margin-top: 10px;
+	padding: 7px;
+	width: 170px;
+	float: left;
+}
+.google {
+	background-color: #F35022;
+	margin-right: 12px;
+	border: 0px solid white;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding: 7px;
+	margin-top: 10px;
+	width: 170px;
+	float: right;
+}
+.register {
+	margin-left: 200px;
+	width: 35%;
+	background-image: url("bg.jpg");
+	float: left;
+}
+.username {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-bottom: 2px solid white;
+}
+.pass {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-bottom: 2px solid white;
+}
+.confilm {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-bottom: 2px solid white;
+}
+.dangki {
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: #0F14E9;
+	border:0px solid #0B2CF2;
+	margin-top: 30px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+var a=2000;
+var keo;
+document.write("so vien keo co the mua:" + (keo = a / 200));
+document.write('<br>');
+document.write("2 vo keo doi duoc 1 vien:" + (keo / 2));
+document.write('<br>');
+document.write("tiep tuc doi vien keo:" + Math.floor(5 / 2));
+document.write('<br>');
+document.write("tiep tuc doi them keo va mot vien keo du:" + (2 / 2 + 1));
+document.write('<br>');
+document.write("so keo mua duoc la: 19");
