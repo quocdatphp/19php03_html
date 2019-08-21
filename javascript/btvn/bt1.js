@@ -90,21 +90,18 @@
 
 var i;
 for (var  i= 1;  i<=100; i++) {
-	if (i % 3==0) {
-		document.write("cac so chia het cho 3 la:" + i);
-		document.write('<br>');
-	}
-	if (i % 5 == 0) {
-		document.write("cac so chia het cho 5 la:" + i);
-		document.write('<br>');
-	}
-	else if (i % 15 == 0) {
+	if (i % 15 == 0) {
 		document.write("cac so chia het cho 15 la:" + i);
-		document.write('<br>');
+	}
+	else if (i % 5 == 0) {
+		document.write("cac so chia het cho 5 la:" + i);
+	}
+	else if (i % 3 == 0) {
+		document.write("cac so chia het cho 3 la:" + i);
 	}
 	else {
-		document.write("cac so khong chia het cho 3, 5 ,15 la:" + i);
-		document.write('<br>');
+		document.write("cac so khong chia het cho 3, 5, 15 la:" + i);
 	}
-	
+	document.write('<br>');
 }
+
