@@ -57,7 +57,8 @@ document.write(cachdungtien);
 
 document.write('<br>-----------<br>');
 //Bt gui ngan hang
-
+var a = 20000000;
+var lai = 0.006;
 
 
 

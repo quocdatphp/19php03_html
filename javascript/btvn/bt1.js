@@ -1,3 +1,4 @@
+
 // function sumnumber(a, b)
 // {
 // 	document.write('tong cua a va b la:' + (a + b));
