@@ -59,7 +59,7 @@ function maxnumber(so1, so2, so3) {
 document.write('<br>');
 document.write('so lon nhat la:' + maxnumber(a, b, c));
 
-
+// BT chuyển số thành chữ
 document.write('<br>--------------<br>');
 var mangso = [" không "," một "," hai "," ba "," bốn "," năm "," sáu "," bảy "," tám "," chín "];
 var n = prompt("nhap so n");

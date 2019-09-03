@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="tinhtong.css">
+	<title>tinh tong</title>
+
+</head>
+<body>
+	<form action="" style="text-align: center;">
+		<p>Số a: <input type="text" id="soa" placeholder="Nhập số a" onblur="checkError(this.id)"></p>
+		<label for="" id="error_soa"></label>
+		<p>Số b: <input type="number" id="sob" placeholder="Nhập số b" onblur="checkError(this.id)"></p>
+		<label for="" id="error_sob"></label>
+		<p>Tổng:<input type="text" id="kq" readonly="readonly"></p>
+		<input type="button" value="Tính tổng" id="btnTinh" onclick="Tinhtong()">
+	</form>
+	<div class="picture">
+		<!-- ảnh mặc định đầu tiên -->
+		<img src="img/avatar.jpg" alt="default" id="slider">
+		<!-- <input type= "button" value="macro reus" onclick="document.getElementById('slider').src='img/reus.jpg'"/> -->
+		<button onclick="prev()">Ảnh trước</button>
+		<button onclick="next()">Ảnh sau</button>
+	</div>
+	<script src="tinhtong.js"></script>
+</body>
+</html>

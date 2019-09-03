@@ -1,0 +1,11 @@
+img {
+	width: 200px;
+	height: 200px;
+}
+.error {
+	color: red;
+}
+.input_error {
+	border: 2px solid red;
+	/*background: url(img/errot.png) no-repeat right center;*/
+}

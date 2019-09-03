@@ -1,0 +1,17 @@
+table {
+	background-color: #C1BEBE;
+	margin: auto;
+}
+#Result {
+	width: 218px;
+}
+.btn {
+	width: 40px;
+	height: 30px;
+}
+#equal {
+	height: 78px;
+}
+#zero {
+	width: 84px;
+}

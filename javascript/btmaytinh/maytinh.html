@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Máy tính casio</title>
+	<link rel="stylesheet" href="maytinh.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="7"><input type="text" id="Result"></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="btn" value="7" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="8" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="9" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="/" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="<--" onclick="Result.value=Result.value.substr(0,Result.value.length-1)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" class="btn" value="4" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="5" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="6" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="*" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="C" onclick="Result.value= ''"></td>
+		</tr>
+		<tr>
+			
+			<td><input type="button" class="btn" value="3" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="2" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="1" onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="+" onclick="Result.value+=this.value"></td>
+			<td rowspan="2"><input type="button" id="equal" class="btn" value="=" onclick="Result.value=eval(Result.value)"></td>
+			<!-- hàm eval dùng tính toán biểu thức -->
+		</tr>
+		<tr>
+			<td colspan="2"><input type="button" id="zero" class="btn" value="0"  onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="."  onclick="Result.value+=this.value"></td>
+			<td><input type="button" class="btn" value="-"  onclick="Result.value+=this.value"></td>
+			
+		</tr>
+	</table>
+	<script src="maytinh.js"></script>
+</body>
+</html>
