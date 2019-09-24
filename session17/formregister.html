@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form đăng kí</title>
+	<link rel="stylesheet" href="register.css">
+</head>
+<body>
+	<h1>Form register</h1><br><br>
+	<form action="" method="post">
+		<div id="container" >
+			<b>Full name</b>
+			<input type="text" name="fullname" id="fullname">
+			<label for="" id="errnam"></label>
+
+			<div class="wraper">
+			<b>Giới tính</b><br>
+			<input type="radio" id="gender" value="male" required>Nam <br>
+			<input type="radio" id="gender" value="female" required>Nữ <br>
+			<label for="" id="errgender"></label>
+			</div>
+
+			<b>Ngày Sinh</b>
+			<input type="date" name="day" id="day">
+			<label for="" id="errday"></label><br>
+
+			<b>Tỉnh</b>
+			<select name="city" id="city" required>
+				<option value="">--- chọn ---</option>
+				<option value="ct">Quảng Nam</option>
+				<option value="ct">Đà Nẵng</option>
+				<option value="ct">Huế</option>
+				<option value="ct">Hồ Chí Minh</option>
+				<option value="ct">Bình Dương</option>
+				<option value="ct">Nghệ An</option>
+			</select>
+			<label for="" id="errcity"></label><br>
+			<input type="button" value="Register" name="resgister" id="register" onclick="validate()">
+			</div>
+	</form>
+	<div id="print"></div>
+	<script src="register.js"></script>
+</body>
+</html>

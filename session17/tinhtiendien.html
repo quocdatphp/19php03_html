@@ -10,25 +10,27 @@
 	<form action="" method="post" id="form-tiendien">
 			<legend>Hóa đơn tiền điện</legend>
 	<p>Tên:
-		<input type="text" value="" id="fullname" name="fullname"><br>
-		<label for="" id="errname"></label>
-	</p>
+		<input type="text" value="" id="fullname" name="fullname"><br></p>
+		<span id="errname"></span>
 	<br>
 	<p>Số điện đầu kỳ:
-		<input type="text" value="" id="firstnumber" name="firstnumber" min="0"><span id="errfirstnumber"></span>
-	</p>
+		<input type="text" value="" id="firstnumber" name="firstnumber" min="0"></p>
+		<span id="errfirstnumber"></span>
 	<br>
 	<p>Số điện cuối kỳ:
-		<input type="text" value="" id="lastnumber" name="lastnumber" min="0"><span id="errlastnumber"></span>
-	</p>
+		<input type="text" value="" id="lastnumber" name="lastnumber" min="0"></p>
+		<span id="errlastnumber"></span>
 	<br>
 	<p>Từ ngày - đến ngày:
-		<input type="date" value="" id="firstday" name="firstday"><span id="errfirstday"></span>
-		<input type="date" value="" id="lastday" name="lastday"><span id="lastday"></span>
+		<input type="date" value="" id="lastday" name="lastday">
+		<input type="date" value="" id="firstday" name="firstday">
+		
 	</p>
+		<span id="errfirstday"></span>
+		<span id="errlastday"></span>
 	<br>
-	<input type="submit" value="Tính tiền" readonly="readonly" onclick="validateform()">
+	<input type="button" value="Tính tiền" readonly="readonly" onclick="validateform()">
 	</form>
-
+	<p id="printContent"></p>
 </body>
 </html>
