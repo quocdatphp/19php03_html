@@ -1,0 +1,198 @@
+.topbar {
+	width: 100%;
+	padding-bottom: 15px;
+}
+*{
+	margin: auto;
+	padding: auto;
+}
+/*.row {
+	border-bottom: 1px solid black;
+}*/
+span{
+	line-height: 50px;
+	font-size: 17px;
+	float: left;
+}
+.call-us{
+	float: right;
+}
+.logo {
+	width: 100%;
+}
+
+.banner{
+	width: 100%;
+	background-image: url(img/banner1.png);
+	object-fit: cover;
+	background-size: cover;
+	background-position: center;
+	display: block;
+	height: 600px;
+}
+.header-menu {
+	display: flex;
+}
+ul {
+	float: right;
+	padding: 0;
+	margin: 0;
+	background: white;
+	overflow: hidden;
+}
+li {
+	float: left;
+	display: block;
+	padding:0 20px;
+	height: auto;
+	line-height:50px; 
+	font-weight: bold;
+}
+li a {
+	display: block;
+	color: #2D2424;
+	text-decoration: none;
+	text-align: center;
+}
+li a:hover{
+	color: #FC62E4;
+	text-decoration: none;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+h6 {
+	text-indent: 34vh;
+}
+.rw-sentence {
+	float: left;
+	margin-top: 60px;
+	margin-left: 140px;
+}
+.active {
+	padding: 0 8px;
+	border: 1px solid #E9E3E3;
+	color: #46E460;
+}
+.container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	display: flex;
+}
+.container-news-product{
+	width: 84%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+
+}
+.container-product-different{
+	width: 84%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	clear: left;
+}
+p{
+/*	margin-left: 25px;*/
+	font-weight: 600;
+	text-align: justify;
+}
+label {
+	border: 1px solid black;
+	width: 100%;
+}
+.text {
+	margin: 0;
+}
+h3 {
+/*	background: #E6E3E3;*/
+	text-align: center;
+}
+.icon{
+	float: right;
+	padding: 0 10px;
+	font-size: 20px;
+}
+.content {
+	width: 90%;
+	padding: 0 100px;
+	margin: auto;
+	background: #E6E3E3;
+}
+.menu {
+	margin: auto;
+	background: #E6E3E3;
+}
+button {
+	margin-left: 50px;
+	text-align: center;
+}
+.arrow {
+	margin-left: 570px;
+	font-size: 25px;
+
+}
+.arrow-left, .arrow-right{
+	color: green;
+}
+.about-us {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.wrapper {
+	
+}
+.news {
+	width: 70%;
+	margin: auto;
+	display: flex;
+}
+.news-title {
+	text-decoration: none;
+}
+.button {
+	margin-top: 20px;
+	text-align: center;
+}
+.contact-us {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: #E6E3E3;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 50px 0;
+}
+.contact {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+input[type=text]{
+	width: 48%;
+	float: left;
+	padding-right: 10px;
+	margin-right: 20px;
+}
+input[type=phone] {
+	float: right;
+	width: 48%;
+}
+.form-group {
+	margin-bottom: 10px;
+	width: 100%;
+	height: 40px;
+}
+.capchaname {
+	background: #75F261;
+	width: 15%;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+}
